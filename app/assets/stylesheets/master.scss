@@ -28,18 +28,18 @@
     -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
-.slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style: italic;
-  padding-top: 26px;
-}
 
 .links {
-  padding-top: 26px;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: normal;
+  padding-top: 27px;
+  font-size: 25px;
+  color: blue;
 }
 
+
 .links a {
-  color: black;
+  color: blue;
   font-size: 30px;
   border-bottom: 1px solid #dfdfdf;
 }
@@ -50,4 +50,17 @@
 
 hr {
   clear: both;
+}
+
+body {
+  background-image: url ('everydaycarry.jpg');
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+  height: 550px;
+  width: 100%;
 }
