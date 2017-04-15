@@ -3,12 +3,28 @@
   <head>
     <title>Quiz1</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
+      <header class="row">
+      <div class="col-3">
+        <div>
+          LOGO
+        </div>
+      <div class="col-4">
+        Take a sneak peak of what is in my everyday carry as I seek a quiet solace to explore my passions
+      </div>
+      <div class="col-5">
+        <%= link_to 'Yours Truly', '#' %>
+      </div>
+    </header> 
+    
+
+    <br class="clear" />
+
     <%= yield %>
+  
+
   </body>
 </html>
